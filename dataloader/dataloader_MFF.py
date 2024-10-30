@@ -6,12 +6,13 @@ from PIL import Image, ImageFilter
 import cv2
 from util import *
 from  torchvision import utils as vutils
-from scipy.misc import  imsave
+# from scipy.misc import  imsave
 import cv2 as cv
 import math
 from util.TwoPath_transforms import *
 import torchvision.transforms as transforms
-
+import imageio
+imsave = imageio.imsave
 #多聚焦融合数据loader
 
 #~/sunyang/dataset
